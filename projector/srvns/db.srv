@@ -1,0 +1,12 @@
+
+$TTL    60000
+@               IN      SOA     srvns.srv.    root.srvns.srv. (
+                            2006031201 ; serial
+                            28800 ; refresh
+                            14400 ; retry
+                            3600000 ; expire
+                            0 ; negative cache ttl
+                        )
+@               IN      NS      srvns.srv.
+srvns.srv.      IN      A       15.0.0.11
+web.srv.        IN      A       20.0.0.2
