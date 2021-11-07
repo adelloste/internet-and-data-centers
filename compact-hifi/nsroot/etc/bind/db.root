@@ -1,0 +1,14 @@
+$TTL   60000
+@               IN      SOA     nsroot.    root.nsroot. (
+                            2006031201 ; serial
+                            28800 ; refresh
+                            14400 ; retry
+                            3600000 ; expire
+                            0 ; negative cache ttl
+                        )
+
+@               IN      NS      nsroot.
+nsroot.	        IN	    A	    2.0.0.10
+
+me.		        IN 	    NS	    nsme.me.
+nsme.me.	    IN 	    A	    3.0.0.10
