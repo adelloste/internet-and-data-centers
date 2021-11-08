@@ -1,0 +1,5 @@
+ifconfig eth0 30.0.0.3/24 up
+
+route add default gw 30.0.0.2 dev eth0
+
+/etc/init.d/bind start
