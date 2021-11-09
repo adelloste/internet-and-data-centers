@@ -1,4 +1,3 @@
-
 $TTL    60000
 @               IN      SOA     srvns.srv.    root.srvns.srv. (
                             2006031201 ; serial
