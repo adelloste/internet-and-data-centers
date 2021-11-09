@@ -1,12 +1,11 @@
-
 $TTL    60000
-@               IN      SOA     srvns.srv.    root.srvns.srv. (
+@               IN      SOA     dns3.site.    root.dns3.site. (
                             2006031201 ; serial
                             28800 ; refresh
                             14400 ; retry
                             3600000 ; expire
                             0 ; negative cache ttl
                         )
-@               IN      NS      srvns.srv.
-srvns           IN      A       15.0.0.11
-web             IN      A       20.0.0.2
+@               IN      NS      dns3.site.
+dns3            IN      A       10.3.0.2
+my              IN      A       10.1.0.3
