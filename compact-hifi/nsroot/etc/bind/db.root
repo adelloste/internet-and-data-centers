@@ -1,5 +1,5 @@
 $TTL   60000
-@               IN      SOA     nsroot.    root.nsroot. (
+@               IN      SOA     ROOT-SERVER.    root.ROOT-SERVER. (
                             2006031201 ; serial
                             28800 ; refresh
                             14400 ; retry
@@ -7,8 +7,8 @@ $TTL   60000
                             0 ; negative cache ttl
                         )
 
-@               IN      NS      nsroot.
-nsroot.	        IN	    A	    2.0.0.10
+@               IN      NS      ROOT-SERVER.
+ROOT-SERVER.	IN	    A	    2.0.0.10
 
 me.		        IN 	    NS	    nsme.me.
 nsme.me.	    IN 	    A	    3.0.0.10
