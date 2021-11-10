@@ -1,0 +1,13 @@
+$TTL    60000
+@               IN      SOA     dns.it.    root.dns.it. (
+                            2006031201 ; serial
+                            28800 ; refresh
+                            14400 ; retry
+                            3600000 ; expire
+                            0 ; negative cache ttl
+                        )
+@               IN      NS      dns.it.
+dns             IN      A       30.0.0.4
+
+roma3           IN 	    NS	    dns.roma3.it.
+dns.roma3	    IN 	    A	    30.0.0.3
