@@ -1,0 +1,5 @@
+ifconfig eth0 30.30.1.2/24 up
+
+route add default gw 30.30.1.1 dev eth0
+
+/etc/init.d/apache2 start
