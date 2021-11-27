@@ -1,0 +1,4 @@
+ifconfig eth0 40.40.2.1/24 up
+ifconfig eth1 40.40.1.1/24 up
+ifconfig eth2 40.40.5.1/24 up
+/etc/init.d/frr start
