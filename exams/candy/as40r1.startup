@@ -1,0 +1,5 @@
+ifconfig eth0 192.168.0.2/30 up
+ifconfig eth1 192.168.0.6/30 up
+ifconfig eth2 192.168.0.26/30 up
+ifconfig eth3 192.168.0.30/30 up
+/etc/init.d/frr start
